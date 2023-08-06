@@ -141,7 +141,7 @@ nav ul li a:hover, nav ul li a.active{
 
     background-color: #16213e ;
     padding-bottom: 100px;
-    
+
 
  }
 
@@ -186,6 +186,85 @@ nav ul li a:hover, nav ul li a.active{
 
  }
 
+/* Second section code start here */
+
+#second-section{
+
+    background-color: #1b4f72 ;
+    padding: 50px 0 100px 0;
+
+}
+
+#smart-parent{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 200px;
+
+
+
+
+}
+
+
+.smart-text{
+    color: white;
+}
+
+.smart-text h2{
+    margin: 20px 0;
+    font-size: 30px;
+
+}
+
+.smart-text a{
+
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+.smart-title{
+
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* First section media quary start */
 
  @media only screen and (max-width: 688px) {
@@ -196,9 +275,19 @@ nav ul li a:hover, nav ul li a.active{
         width: 100%;
         
     }
+
+    #smart-parent{
+        display: block;
+        margin: 0 30px;
  }
 
+ .smart-image img {
+    width: 100%;
+    margin-bottom: 50px;
+ }
 
+ }
+ 
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     #service-parent{
         display: grid;
@@ -207,4 +296,15 @@ nav ul li a:hover, nav ul li a.active{
         width: 100%;
 
     }
+
+    #smart-parent{
+        display: block;
+        margin: 0 70px;
+ }
+
+ .smart-image img {
+    width: 100%;
+    margin-bottom: 70px;
+
+
  }
