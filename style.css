@@ -122,3 +122,16 @@ nav ul li a:hover, nav ul li a.active{
 
  }
 
+ /* header section start */
+
+ header{
+
+    height: 90vh;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+ }
+
