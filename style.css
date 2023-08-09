@@ -272,6 +272,8 @@ nav ul li a:hover, nav ul li a.active{
 
 .more-about-vanilla ul {
     margin: 20px 0;
+    list-style-position: inside;
+    
 
 }
 
