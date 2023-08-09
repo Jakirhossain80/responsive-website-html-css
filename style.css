@@ -542,6 +542,53 @@ form p{
 }
 
 
+/* Takecare section start */
+
+#seven-section {
+
+    padding: 100px 0;
+
+}
+
+#takecare-parent{
+
+    display: flex;
+    margin: 0 200px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.single-takecare-imagebox{
+    width: 100%;
+
+}
+
+.single-takecare-imagebox img{
+
+    width: 100%;
+
+}
+
+.single-takecare h3 {
+
+    font-size: 30px;
+}
+
+.single-takecare p {
+
+    margin: 20px 0;
+}
+
+.single-takecare ul li{
+
+    list-style-position: inside;
+    margin: 10px .;
+}
+
+
 
 
 
@@ -657,6 +704,25 @@ form{
 
 }
 
+/* Finish Match secton */
+
+/* Start takecar section */
+
+#takecare-parent{
+
+    display: block;
+    margin: 0 30px;
+   
+   
+   
+
+}
+
+.single-takecare{
+
+    margin-bottom: 70px;
+}
+
 
 
 
@@ -762,7 +828,22 @@ form{
     margin: 0 60px;
 }
 
+/* finished match section */
 
+/* Takecare section start */
+
+#takecare-parent {
+
+    display: block;
+    margin: 0 65px;
+
+}
+
+.single-takecare{
+
+    margin-bottom: 70px;
+    
+}
 
 
 
